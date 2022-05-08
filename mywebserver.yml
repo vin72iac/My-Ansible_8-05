@@ -3,7 +3,7 @@
   tasks:
   - name: install webservers
     apt:
-      name: apache2
+      name: git
       state: present
   - name: install tree
     apt:
